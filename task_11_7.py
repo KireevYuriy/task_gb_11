@@ -20,9 +20,8 @@ class MyComplex:
         return self.__complex.__str__()
 
 
-if __name__ == '__main__':
-    c1 = MyComplex(2, -3)
-    c2 = MyComplex(5)
+c1 = MyComplex(1, -2)
+c2 = MyComplex(5)
 
-    print(c1 + c2, complex(2, -3) + complex(5))
-    print(c1 * c2, complex(2, -3) * complex(5))
+print(c1 + c2, complex(1, -2) + complex(3))
+print(c1 * c2, complex(2, -3) * complex(5))
